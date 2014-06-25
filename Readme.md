@@ -1,5 +1,3 @@
-A simple number-formatter-as-you-type sample to be used in number entries
-
 ## NumberFormatter
 
 An example for phone number input in Objective-C. Includes as-you-type-formatter and verification. Useful for apps using phone number as a verification system.
