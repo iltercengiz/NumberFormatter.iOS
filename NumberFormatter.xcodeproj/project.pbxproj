@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		136E041B07E348088BF5C42F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E96AC93BD8467A86AB2C7C /* libPods.a */; };
+		36B8BC7D194A202D007A47F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B8BC7C194A202D007A47F1 /* Foundation.framework */; };
+		36B8BC7F194A202D007A47F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B8BC7E194A202D007A47F1 /* CoreGraphics.framework */; };
+		36B8BC81194A202D007A47F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B8BC80194A202D007A47F1 /* UIKit.framework */; };
+		36B8BC87194A202D007A47F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36B8BC85194A202D007A47F1 /* InfoPlist.strings */; };
+		36B8BC89194A202D007A47F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8BC88194A202D007A47F1 /* main.m */; };
+		36B8BC8D194A202D007A47F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8BC8C194A202D007A47F1 /* AppDelegate.m */; };
+		36B8BC8F194A202D007A47F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36B8BC8E194A202D007A47F1 /* Images.xcassets */; };
+		36B8BC96194A202D007A47F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B8BC95194A202D007A47F1 /* XCTest.framework */; };
+		36B8BC97194A202D007A47F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B8BC7C194A202D007A47F1 /* Foundation.framework */; };
+		36B8BC98194A202D007A47F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B8BC80194A202D007A47F1 /* UIKit.framework */; };
+		36B8BCA0194A202D007A47F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36B8BC9E194A202D007A47F1 /* InfoPlist.strings */; };
+		36B8BCA2194A202D007A47F1 /* NumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8BCA1194A202D007A47F1 /* NumberFormatterTests.m */; };
+		36B8BCAC194A204B007A47F1 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36B8BCAB194A204B007A47F1 /* iPhone.storyboard */; };
+		36B8BCAF194A2206007A47F1 /* VerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8BCAE194A2206007A47F1 /* VerifyViewController.m */; };
+		36B8BCB2194A2212007A47F1 /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8BCB1194A2212007A47F1 /* CodeViewController.m */; };
+		36B8BCB5194A2349007A47F1 /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8BCB4194A2349007A47F1 /* NumberFormatter.m */; };
+		613612E608C347BFAF0F964B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E96AC93BD8467A86AB2C7C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36B8BC99194A202D007A47F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36B8BC71194A202D007A47F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36B8BC78194A202D007A47F1;
+			remoteInfo = NumberFormatter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36B8BC79194A202D007A47F1 /* NumberFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B8BC7C194A202D007A47F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		36B8BC7E194A202D007A47F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		36B8BC80194A202D007A47F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		36B8BC84194A202D007A47F1 /* NumberFormatter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberFormatter-Info.plist"; sourceTree = "<group>"; };
+		36B8BC86194A202D007A47F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36B8BC88194A202D007A47F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36B8BC8A194A202D007A47F1 /* NumberFormatter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NumberFormatter-Prefix.pch"; sourceTree = "<group>"; };
+		36B8BC8B194A202D007A47F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36B8BC8C194A202D007A47F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36B8BC8E194A202D007A47F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36B8BC94194A202D007A47F1 /* NumberFormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberFormatterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B8BC95194A202D007A47F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		36B8BC9D194A202D007A47F1 /* NumberFormatterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NumberFormatterTests-Info.plist"; sourceTree = "<group>"; };
+		36B8BC9F194A202D007A47F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		36B8BCA1194A202D007A47F1 /* NumberFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberFormatterTests.m; sourceTree = "<group>"; };
+		36B8BCAB194A204B007A47F1 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		36B8BCAD194A2206007A47F1 /* VerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyViewController.h; sourceTree = "<group>"; };
+		36B8BCAE194A2206007A47F1 /* VerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyViewController.m; sourceTree = "<group>"; };
+		36B8BCB0194A2212007A47F1 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		36B8BCB1194A2212007A47F1 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		36B8BCB3194A2349007A47F1 /* NumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFormatter.h; sourceTree = "<group>"; };
+		36B8BCB4194A2349007A47F1 /* NumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatter.m; sourceTree = "<group>"; };
+		A1E96AC93BD8467A86AB2C7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDC01CF72D148CB9C4D2109 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36B8BC76194A202D007A47F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8BC7F194A202D007A47F1 /* CoreGraphics.framework in Frameworks */,
+				36B8BC81194A202D007A47F1 /* UIKit.framework in Frameworks */,
+				36B8BC7D194A202D007A47F1 /* Foundation.framework in Frameworks */,
+				136E041B07E348088BF5C42F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8BC91194A202D007A47F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8BC96194A202D007A47F1 /* XCTest.framework in Frameworks */,
+				36B8BC98194A202D007A47F1 /* UIKit.framework in Frameworks */,
+				36B8BC97194A202D007A47F1 /* Foundation.framework in Frameworks */,
+				613612E608C347BFAF0F964B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36B8BC70194A202D007A47F1 = {
+			isa = PBXGroup;
+			children = (
+				36B8BC82194A202D007A47F1 /* NumberFormatter */,
+				36B8BC9B194A202D007A47F1 /* NumberFormatterTests */,
+				36B8BC7B194A202D007A47F1 /* Frameworks */,
+				36B8BC7A194A202D007A47F1 /* Products */,
+				AFDC01CF72D148CB9C4D2109 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		36B8BC7A194A202D007A47F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36B8BC79194A202D007A47F1 /* NumberFormatter.app */,
+				36B8BC94194A202D007A47F1 /* NumberFormatterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36B8BC7B194A202D007A47F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36B8BC7C194A202D007A47F1 /* Foundation.framework */,
+				36B8BC7E194A202D007A47F1 /* CoreGraphics.framework */,
+				36B8BC80194A202D007A47F1 /* UIKit.framework */,
+				36B8BC95194A202D007A47F1 /* XCTest.framework */,
+				A1E96AC93BD8467A86AB2C7C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36B8BC82194A202D007A47F1 /* NumberFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				36B8BC8B194A202D007A47F1 /* AppDelegate.h */,
+				36B8BC8C194A202D007A47F1 /* AppDelegate.m */,
+				36B8BCAB194A204B007A47F1 /* iPhone.storyboard */,
+				36B8BCAD194A2206007A47F1 /* VerifyViewController.h */,
+				36B8BCAE194A2206007A47F1 /* VerifyViewController.m */,
+				36B8BCB0194A2212007A47F1 /* CodeViewController.h */,
+				36B8BCB1194A2212007A47F1 /* CodeViewController.m */,
+				36B8BCB3194A2349007A47F1 /* NumberFormatter.h */,
+				36B8BCB4194A2349007A47F1 /* NumberFormatter.m */,
+				36B8BC8E194A202D007A47F1 /* Images.xcassets */,
+				36B8BC83194A202D007A47F1 /* Supporting Files */,
+			);
+			path = NumberFormatter;
+			sourceTree = "<group>";
+		};
+		36B8BC83194A202D007A47F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36B8BC84194A202D007A47F1 /* NumberFormatter-Info.plist */,
+				36B8BC85194A202D007A47F1 /* InfoPlist.strings */,
+				36B8BC88194A202D007A47F1 /* main.m */,
+				36B8BC8A194A202D007A47F1 /* NumberFormatter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36B8BC9B194A202D007A47F1 /* NumberFormatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				36B8BCA1194A202D007A47F1 /* NumberFormatterTests.m */,
+				36B8BC9C194A202D007A47F1 /* Supporting Files */,
+			);
+			path = NumberFormatterTests;
+			sourceTree = "<group>";
+		};
+		36B8BC9C194A202D007A47F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36B8BC9D194A202D007A47F1 /* NumberFormatterTests-Info.plist */,
+				36B8BC9E194A202D007A47F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36B8BC78194A202D007A47F1 /* NumberFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B8BCA5194A202D007A47F1 /* Build configuration list for PBXNativeTarget "NumberFormatter" */;
+			buildPhases = (
+				0E112BD175A24281B223A27E /* Check Pods Manifest.lock */,
+				36B8BC75194A202D007A47F1 /* Sources */,
+				36B8BC76194A202D007A47F1 /* Frameworks */,
+				36B8BC77194A202D007A47F1 /* Resources */,
+				EC8DA064FA8D495A92A7C7B1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumberFormatter;
+			productName = NumberFormatter;
+			productReference = 36B8BC79194A202D007A47F1 /* NumberFormatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36B8BC93194A202D007A47F1 /* NumberFormatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B8BCA8194A202D007A47F1 /* Build configuration list for PBXNativeTarget "NumberFormatterTests" */;
+			buildPhases = (
+				E5E347062CB14DE79A6E86CC /* Check Pods Manifest.lock */,
+				36B8BC90194A202D007A47F1 /* Sources */,
+				36B8BC91194A202D007A47F1 /* Frameworks */,
+				36B8BC92194A202D007A47F1 /* Resources */,
+				B186F4B24FF04A95990AAAA2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36B8BC9A194A202D007A47F1 /* PBXTargetDependency */,
+			);
+			name = NumberFormatterTests;
+			productName = NumberFormatterTests;
+			productReference = 36B8BC94194A202D007A47F1 /* NumberFormatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36B8BC71194A202D007A47F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ilter Cengiz";
+				TargetAttributes = {
+					36B8BC93194A202D007A47F1 = {
+						TestTargetID = 36B8BC78194A202D007A47F1;
+					};
+				};
+			};
+			buildConfigurationList = 36B8BC74194A202D007A47F1 /* Build configuration list for PBXProject "NumberFormatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36B8BC70194A202D007A47F1;
+			productRefGroup = 36B8BC7A194A202D007A47F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36B8BC78194A202D007A47F1 /* NumberFormatter */,
+				36B8BC93194A202D007A47F1 /* NumberFormatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36B8BC77194A202D007A47F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8BC87194A202D007A47F1 /* InfoPlist.strings in Resources */,
+				36B8BCAC194A204B007A47F1 /* iPhone.storyboard in Resources */,
+				36B8BC8F194A202D007A47F1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8BC92194A202D007A47F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8BCA0194A202D007A47F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E112BD175A24281B223A27E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B186F4B24FF04A95990AAAA2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E347062CB14DE79A6E86CC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8DA064FA8D495A92A7C7B1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36B8BC75194A202D007A47F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8BC8D194A202D007A47F1 /* AppDelegate.m in Sources */,
+				36B8BCB2194A2212007A47F1 /* CodeViewController.m in Sources */,
+				36B8BCB5194A2349007A47F1 /* NumberFormatter.m in Sources */,
+				36B8BCAF194A2206007A47F1 /* VerifyViewController.m in Sources */,
+				36B8BC89194A202D007A47F1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36B8BC90194A202D007A47F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36B8BCA2194A202D007A47F1 /* NumberFormatterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36B8BC9A194A202D007A47F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36B8BC78194A202D007A47F1 /* NumberFormatter */;
+			targetProxy = 36B8BC99194A202D007A47F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36B8BC85194A202D007A47F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36B8BC86194A202D007A47F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		36B8BC9E194A202D007A47F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36B8BC9F194A202D007A47F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36B8BCA3194A202D007A47F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		36B8BCA4194A202D007A47F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36B8BCA6194A202D007A47F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDC01CF72D148CB9C4D2109 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberFormatter/NumberFormatter-Prefix.pch";
+				INFOPLIST_FILE = "NumberFormatter/NumberFormatter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		36B8BCA7194A202D007A47F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDC01CF72D148CB9C4D2109 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberFormatter/NumberFormatter-Prefix.pch";
+				INFOPLIST_FILE = "NumberFormatter/NumberFormatter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		36B8BCA9194A202D007A47F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDC01CF72D148CB9C4D2109 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NumberFormatter.app/NumberFormatter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberFormatter/NumberFormatter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NumberFormatterTests/NumberFormatterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		36B8BCAA194A202D007A47F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDC01CF72D148CB9C4D2109 /* Pods.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NumberFormatter.app/NumberFormatter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NumberFormatter/NumberFormatter-Prefix.pch";
+				INFOPLIST_FILE = "NumberFormatterTests/NumberFormatterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36B8BC74194A202D007A47F1 /* Build configuration list for PBXProject "NumberFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B8BCA3194A202D007A47F1 /* Debug */,
+				36B8BCA4194A202D007A47F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B8BCA5194A202D007A47F1 /* Build configuration list for PBXNativeTarget "NumberFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B8BCA6194A202D007A47F1 /* Debug */,
+				36B8BCA7194A202D007A47F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B8BCA8194A202D007A47F1 /* Build configuration list for PBXNativeTarget "NumberFormatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36B8BCA9194A202D007A47F1 /* Debug */,
+				36B8BCAA194A202D007A47F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36B8BC71194A202D007A47F1 /* Project object */;
+}
